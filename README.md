@@ -1,2 +1,2 @@
 # dithering
-Dithering algorithm
+## pip3 install Pillow
