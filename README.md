@@ -1,0 +1,2 @@
+# dithering
+Dithering algorithm
