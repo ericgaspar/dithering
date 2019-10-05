@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys, PIL.Image
 saved = "dithere_image.png"
 img = PIL.Image.open("image.jpg").convert('L')
