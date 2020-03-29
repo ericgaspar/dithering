@@ -6,7 +6,7 @@ install:
       python -m pip install --upgrade pip
       pip install -r requirements.txt
 script:
-      python dithering.py
+      python Dithering.py
 notifications:
   irc:
     channels: "irc.freenode.org#dithering"
