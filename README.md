@@ -1,5 +1,7 @@
 # dithering
 
+[![Build Status](https://travis-ci.org/ericgaspar/dithering.svg?branch=master)](https://travis-ci.org/ericgaspar/dithering)
+
 ## Dependencies
 
 - [Pillow](https://pypi.org/project/Pillow/)
