@@ -1,8 +1,19 @@
+dist: trusty
 language: python
 python:
       - "3.6"
+      - "3.7"
+      - "3.8"
 install:
       pip install pillow
 script:
       python Dithering.py
+notifications:
+  irc:
+    channels: "irc.freenode.org#dithering"
+    template:
+      - "%{repository_name}@%{branch}: %{message} (%{build_url})"
+    on_success: change
+    on_failure: change
+  email: false
 
