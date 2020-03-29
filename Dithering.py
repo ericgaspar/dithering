@@ -25,4 +25,4 @@ def dithering(imgIn, imgOut, trame=3, show=False):
     img.save(imgOut)
 
 
-dithering("image.jpg", "dithere_image.png", trame=6, show=True)
+# dithering("image.jpg", "dithere_image.png", trame=3, show=True)
