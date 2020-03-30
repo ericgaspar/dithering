@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# dithering("image.jpg", "dithere_image.png", trame=3, show=True)
+
 import sys
 import PIL.Image
 
@@ -26,4 +30,4 @@ def dithering(imgIn, imgOut, trame=3, show=False):
     img.save(imgOut)
 
 if __name__ == "__main__":
-    dithering("image.jpg", "dithere_image.png", trame=3, show=True)
+    dithering("image.jpg", "dithere_image.png", trame=3)
