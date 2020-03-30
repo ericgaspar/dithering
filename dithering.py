@@ -3,6 +3,7 @@ import PIL.Image
 
 
 def dithering(imgIn, imgOut, trame=3, show=False):
+    """Transforme une image en trame dither"""
     img = PIL.Image.open(imgIn).convert('L')
     threshold = 128 * [0] + 128 * [255]
 
