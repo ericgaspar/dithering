@@ -25,5 +25,6 @@ def dithering(imgIn, imgOut, trame=3, show=False):
         img.show()
     img.save(imgOut)
 
-
-# dithering("image.jpg", "dithere_image.png", trame=3, show=True)
+if __name__ == "__main__":
+    dithering("image.jpg", "dithere_image.png", trame=3, show=True)
+    img.show()
