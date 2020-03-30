@@ -7,7 +7,7 @@ python:
 install:
       - pip install pillow
 script:
-      python Dithering.py
+      python dithering.py
 notifications:
   irc:
     channels:
