@@ -10,6 +10,6 @@
 
 ## Sample image
 
-![](https://raw.githubusercontent.com/ericgaspar/dithering/master/image.jpg)
+![](https://raw.githubusercontent.com/ericgaspar/dithering/testing/image.jpg)
 
-![](https://raw.githubusercontent.com/ericgaspar/dithering/master/dithere_image.png)
+![](https://raw.githubusercontent.com/ericgaspar/dithering/testing/dithere_image.png)
