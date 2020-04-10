@@ -1,12 +1,22 @@
 dist: xenial
+
 language: python
+
 python:
-      - "2.7"
+      - "3.6"
       - "3.8"
-install:
+
+before_install:
       - pip install -r requirements.txt
+      - pip install -U pytest
+
+install:
+      - pip install  ".[test]" 
+
 script:
-      python dithering.py
+      - python dithering.py
+      - pytest
+
 notifications:
   irc:
     channels:
@@ -18,4 +28,3 @@ notifications:
     on_success: always #was nevers
     on_failure: always
   email: false
-
